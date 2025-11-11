@@ -4,3 +4,40 @@
     box-sizing: border-box;
 }
 
+* body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(242,242,242);
+    display: flex;
+    justify-content: center;
+    margin: 5vh;
+    
+}
+
+#container {
+    width: 672px;
+    height: 672px;
+    border: solid;
+    box-sizing: content-box;
+    
+}
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1px solid black;
+    width: 6.25%;
+    height: 6.25%;
+    background-color: white;
+    font-weight: 600;
+    
+    color: rgba(91, 111, 124, 0.152);
+    font-size: 1em;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    
+}
