@@ -12,8 +12,8 @@
 
 #container {
     margin: auto;
-    width: 672px;
-    height: 672px;
+    width: 800px;
+    height: 800px;
     border: solid;
     box-sizing: content-box;
 
@@ -30,16 +30,19 @@
     align-items: center;
     justify-content: center;
     border: 0.1px solid black;
-    width: 6.25%;
-    height: 6.25%;
+    width: calc(100%/16);
+    height: calc(100%/16);
     background-color: white;
     font-weight: 900;
     
     color: rgba(14, 22, 12, 0.075);
-    font-size: 1em;
+    font-size: 1rem;
 
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+      user-select: none; /* Standard syntax */
 }
 
+.hovered{
+    background-color: black;
+}
