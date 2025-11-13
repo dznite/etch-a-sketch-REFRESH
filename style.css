@@ -37,4 +37,9 @@
     
     color: rgba(14, 22, 12, 0.075);
     font-size: 1em;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
+
