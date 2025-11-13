@@ -10,7 +10,7 @@ let boxes = document.querySelectorAll('.boxes');
 boxes.forEach((box)=>{
     box.addEventListener("mouseover", event => {
         if(event.buttons === 1){
-            event.target.style.backgroundColor = "tomato";
+            event.target.classList.add("hovered");
             event.target.textContent = "";
         }
     })
