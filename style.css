@@ -95,9 +95,11 @@
     text-align: middle;
     padding: 0.3rem 1rem;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-    background-color: #ce141400;
+    background-color: #ffffff;
     border-radius: 1em;
-    box-shadow: inset 0px -2px 2px 0.5px rgb(0 0 0 / 0.8);
+    box-shadow: inset 0px -2px 2px 0.5px rgba(0, 0, 0, 0.471);
+    margin-top: -1rem;
+    margin-bottom: 1rem;
 }
 
  #resize:hover {
